@@ -1,10 +1,10 @@
 import pickle
 import pandas as pd
 
-with open('model_filename.pkl', 'rb') as file:
+with open('model.pkl', 'rb') as file:
     model = pickle.load(file)
 
-x_new_data = pd.DataFrame({
+fake_data = pd.DataFrame({
     "Inches": [15.6],
     "Screen_Width": [1920],
     "Screen_Height": [1080],
@@ -18,7 +18,7 @@ x_new_data = pd.DataFrame({
     "GPU_Type": ["Intel UHD Graphics 620"]
 })
 
-y_new_pred = model.predict(x_new_data)
+y_pred = model.predict(fake_data)
 
 # Output the prediction
-print("Predicted Price:", y_new_pred)
+print("Predicted Price:", y_pred)
