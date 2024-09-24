@@ -28,4 +28,5 @@ Predicted prices in blue (dashed line)
 5. Model Saving: The trained model is saved using pickle for future use.
 
 Result:
-![image](https://github.com/user-attachments/assets/3e639289-61ac-4af0-a657-1630ef731b0e)
+![image](https://github.com/user-attachments/assets/d13a23b3-f5ee-4389-8a4e-7c384c0a23cb)
+
