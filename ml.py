@@ -31,7 +31,7 @@ def split_screen(loc):
     number = [part.split("x") for part in s if "x" in part][0]
     return number[0], number[1]
 
-root = "C:/Users/Dell/Documents/AI/Python/Datasets/laptop_price - dataset.csv"
+root = "laptop_price - dataset.csv"
 df = pd.read_csv(root)
 drop_features = ["TypeName", "OpSys", "CPU_Company", "Memory", "ScreenResolution", "GPU_Company", "Product"]
 df[["SSD_GB", "HDD_GB", "Flash Storage_GB"]] = df["Memory"].apply(lambda x:split_memories(x)).apply(pd.Series)
