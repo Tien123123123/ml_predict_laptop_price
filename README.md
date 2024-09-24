@@ -3,14 +3,13 @@ Project: Laptop Price Prediction
   -  The goal of this project is to build a predictive model that estimates the prices of laptops based on various features. Using a dataset of laptop specifications, we aim to train a Random Forest Regressor to provide accurate price predictions.
 - Dataset
   - The dataset used in this project is titled laptop_price - dataset.csv. It contains various features related to laptop specifications, including but not limited to:
-Screen size
-CPU frequency
-RAM
-Storage types and sizes (SSD, HDD, Flash)
-Weight
-GPU type
-Price (target variable)
-Key Components
+1. Screen size
+2. CPU frequency
+3. RAM
+4. Storage types and sizes (SSD, HDD, Flash)
+5. GPU type
+6. Price (target variable)
+- Key Components
 1. Data Preprocessing
 The following preprocessing steps were implemented:
 
