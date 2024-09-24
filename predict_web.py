@@ -4,7 +4,7 @@ import pandas as pd
 
 app = Flask(__name__)
 
-with open("model_filename.pkl", 'rb') as file:
+with open("model.pkl", 'rb') as file:
     model = pickle.load(file)
 
 @app.route('/predict', mothods=['POST'])
