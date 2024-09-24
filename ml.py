@@ -80,12 +80,8 @@ print(f"MSE: {mse}, MAE: {mae}")
 print(f"R2 score: {r2_score(y_test, y_pred)}")
 
 # Save the model to a file
-with open('model_filename.pkl', 'wb') as file:
+with open('model.pkl', 'wb') as file:
     pickle.dump(model_reg, file)
-
-# Load the model later
-with open('model_filename.pkl', 'rb') as file:
-    model = pickle.load(file)
 
 fig, ax = plt.subplots(figsize=(12,8))
 ax.plot(
