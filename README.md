@@ -33,6 +33,6 @@ Result:
 
   - ![image](https://github.com/user-attachments/assets/4a8345e9-ee7d-4202-8922-1e6cb7f1adf3)
 
-- Predict:
+- After Predict:
 ![image](https://github.com/user-attachments/assets/d13a23b3-f5ee-4389-8a4e-7c384c0a23cb)
 
