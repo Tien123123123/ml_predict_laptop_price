@@ -9,7 +9,7 @@ Project: Laptop Price Prediction
 4. Storage types and sizes (SSD, HDD, Flash)
 5. GPU type
 6. Price (target variable)
-- Key Components
+
 1. Data Preprocessing
 - Memory Parsing: The split_memories function extracts and converts storage capacities from the Memory field into separate columns for SSD, HDD, and Flash storage.
 - Screen Resolution Parsing: The split_screen function extracts screen width and height from the ScreenResolution field.
