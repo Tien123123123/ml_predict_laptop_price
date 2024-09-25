@@ -1,6 +1,6 @@
 Project: Laptop Price Prediction
 - Project Objective
-  -  The goal of this project is to build a predictive model that estimates the prices of laptops based on various features. Using a dataset of laptop specifications, we aim to train a Random Forest Regressor to provide accurate price predictions.
+  -  The goal of this project is to build a predictive model that estimates the prices of laptops based on various features. Using a dataset of laptop specifications, I aim to train a Random Forest Regressor to provide accurate price predictions.
 - Dataset
   - The dataset used in this project is titled laptop_price - dataset.csv. It contains various features related to laptop specifications, including but not limited to:
 1. Screen size
