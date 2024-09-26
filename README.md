@@ -34,6 +34,7 @@ Result:
   - ![image](https://github.com/user-attachments/assets/70bf4435-ce8a-4e75-8e43-9a281fe4bf9d)
 
 
-- After Predict:
-![image](https://github.com/user-attachments/assets/d13a23b3-f5ee-4389-8a4e-7c384c0a23cb)
+- After Predict on Postman:
+![image](https://github.com/user-attachments/assets/a2b58422-a196-48f4-afcc-926a9112eb75)
+
 
