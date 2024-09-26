@@ -4,15 +4,22 @@ import pandas as pd
 
 app = Flask(__name__)
 
-with open("model.pkl", 'rb') as file:
+# Load model
+with open('model.pkl', 'rb') as file:
     model = pickle.load(file)
 
-@app.route('/predict', mothods=['POST'])
+
+@app.route('/predict', methods=['POST'])
 def predict():
-    data = request.get_json()
-    df = pd.DataFrame([data])
-    prediction = model.predict(df)
-    return jsonify({f"Predicted Price": prediction[0]})
+    # Get Data and convert to DataFrame
+    data = request.json
+    input_data = pd.DataFrame([data])
+
+    # Prediction
+    y_new_pred = model.predict(input_data)
+
+    return jsonify({"predicted_price": y_new_pred[0]})
+
 
 if __name__ == '__main__':
     app.run(debug=True)
