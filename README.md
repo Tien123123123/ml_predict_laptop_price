@@ -29,10 +29,8 @@ Predicted prices in blue (dashed line)
 
 Result:
 - After Training and Validating:
-  - ![image](https://github.com/user-attachments/assets/e5786a1f-6542-4fd1-813c-0d44bf4b98ed)
+  - ![image](https://github.com/user-attachments/assets/7c65959e-b03d-41a9-aa2d-42d8a7058f96)
 
-  - ![image](https://github.com/user-attachments/assets/4a8345e9-ee7d-4202-8922-1e6cb7f1adf3)
- 
   - ![image](https://github.com/user-attachments/assets/70bf4435-ce8a-4e75-8e43-9a281fe4bf9d)
 
 
