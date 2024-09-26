@@ -17,7 +17,7 @@ Project: Laptop Price Prediction
 2. Model Training: The project utilizes a RandomForestRegressor from sklearn for predicting laptop prices. The model training process includes:
   - Splitting the dataset into training and testing sets (80% training, 20% testing).
   - Deploying Pipeline and Preprocessing numeric and categorical features using StandardScaler and OneHotEncoder.
-  - Fitting the Random Forest model to the training data.
+  - Fitting the Random Forest model with Select K best to the training data.
 3. Model Evaluation: The performance of the model is evaluated using the following metrics:
   - Mean Squared Error (MSE)
   - Mean Absolute Error (MAE)
