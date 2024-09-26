@@ -1,4 +1,4 @@
-Project: Laptop Price Prediction
+![image](https://github.com/user-attachments/assets/4c480b7f-6a51-40d7-8186-9df83f73acb5)Project: Laptop Price Prediction
 - Project Objective
   -  The goal of this project is to build a predictive model that estimates the prices of laptops based on various features. Using a dataset of laptop specifications, I aim to train a Random Forest Regressor to provide accurate price predictions.
 - Dataset
@@ -32,6 +32,9 @@ Result:
   - ![image](https://github.com/user-attachments/assets/e5786a1f-6542-4fd1-813c-0d44bf4b98ed)
 
   - ![image](https://github.com/user-attachments/assets/4a8345e9-ee7d-4202-8922-1e6cb7f1adf3)
+ 
+  - ![image](https://github.com/user-attachments/assets/70bf4435-ce8a-4e75-8e43-9a281fe4bf9d)
+
 
 - After Predict:
 ![image](https://github.com/user-attachments/assets/d13a23b3-f5ee-4389-8a4e-7c384c0a23cb)
