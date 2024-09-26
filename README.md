@@ -29,9 +29,11 @@ Project: Laptop Price Prediction
 
 Result:
 - After Training and Validating:
-  - ![image](https://github.com/user-attachments/assets/7c65959e-b03d-41a9-aa2d-42d8a7058f96)
+  - ![image](https://github.com/user-attachments/assets/f764e4d8-662c-4af9-b6ba-aa306b32a2b8)
 
-  - ![image](https://github.com/user-attachments/assets/70bf4435-ce8a-4e75-8e43-9a281fe4bf9d)
+
+  - ![image](https://github.com/user-attachments/assets/12310ad0-0431-4dcc-8958-4b93295a16b2)
+
 
 
 - After Predict on Postman:
